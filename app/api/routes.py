@@ -18,7 +18,7 @@ def upload():
                 print(input_path)
                 print(output)
                 print(epoch)
-                finetuning(epochs=epoch, batch_size=2, evaluation_steps=7000, model_input_path=input_path, model_output_path=output)
+                finetuning(epochs=ỉnt(epoch), batch_size=2, evaluation_steps=7000, model_input_path=input_path, model_output_path=output)
                 print(jsonify({"success": True}))
                 return jsonify({"success": True})
             except Exception as e:
