@@ -1,0 +1,11 @@
+llama-index==0.10.26
+llama-index-llms-huggingface==0.1.4
+llama-index-finetuning
+deep_translator
+accelerate
+tensorflow==2.16.1
+transformers
+Flask
+Flask-RESTful
+flask_cors
+python-dotenv
