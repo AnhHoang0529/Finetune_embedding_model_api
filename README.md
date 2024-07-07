@@ -69,6 +69,12 @@ Finetune_embedding_model_api/
       - `output`: The folder name where the fine-tuned model will be saved.
       - `epoch`: The number of epochs to use for fine-tuning (can be set between 1-5 epochs).
 
+    Example:
+
+    ```plaintext
+    http://192.168.1.105:9000/ai/v1/llm/finetuning?input=qa_data&output=finetuned-bge-m3&epoch=1
+    ```
+
 ## Project Components
 
 - **app/__init__.py**: Initializes the Flask app and registers the blueprints.
